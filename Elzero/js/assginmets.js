@@ -31,7 +31,7 @@
 // console.log(a < b && a > c); // true
 // console.log(!(a > b) && !(a == b) && !(a == c) && !(a < c)); // true
 
-console.log('\n\n\n\n************* assignment 31-32');
+console.log('\n\n\n\n************* assignment 33-37');
 console.log('*** [1] *** ');
 
 let num = 100;
@@ -149,11 +149,41 @@ if (no4 - (no1 + no3) + no2 === 21) {
 }
 
 
-// console.log(Boolean(number3 == number2));
 
-// switch(num){
-//   case 9 :
-//     console.log(099);
-//     break;
-//   case
-// }
+
+
+console.log('\n\n\n\n************* assignment 37-39');
+
+let day = "   tuesday  ";
+
+let removeSpace = day.replace( /^\s+|\s+$/g, '' );
+let dayCapital = removeSpace.charAt(0).toUpperCase() + removeSpace.slice(1);
+
+console.log(dayCapital);
+
+switch(dayCapital){
+  case "Friday":
+    console.log("No Appointments Available");
+    break;
+  case "Saturday":
+    console.log("No Appointments Available");
+    break;
+  case "Sunday":
+    console.log("No Appointments Available");
+    break;
+  case "Monday":
+    console.log("From 10:00 AM To 5:00 PM");
+    break;
+  case "Tuesday":
+    console.log("From 10:00 AM To 6:00 PM");
+    break;
+  case "Wednesday":
+    console.log("From 10:00 AM To 7:00 PM");
+    break;
+  case "Thursday":
+    console.log("From 10:00 AM To 5:00 PM");
+    break;
+  default:
+    console.log("Its Not A Valid Day");
+
+}
