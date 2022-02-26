@@ -187,3 +187,77 @@ switch(dayCapital){
     console.log("Its Not A Valid Day");
 
 }
+
+
+console.log('\n\n\n\n************* assignment 40-47');
+console.log('\n************* [1]');
+
+
+let myFriends1 = ["Ahmed", "Elham", "Osama", "Gamal"];
+let myFriends2 = ["Ahmed", "Elham", "Osama", "Gamal"];
+
+let numLen = 3;
+
+// Method 1
+myFriends1.length = numLen;
+console.log(myFriends1); // ["Ahmed", "Elham", "Osama"];
+
+// Method 2
+myFriends2.pop();
+console.log(myFriends2); // ["Ahmed", "Elham", "Osama"];
+
+console.log('\n************* [2]');
+
+let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
+
+friends.pop();
+friends.shift();
+
+console.log(friends); // ["Eman", "Osama"]
+
+console.log('\n************* [3]');
+
+let arrOne = ["C", "D", "X"];
+let arrTwo = ["A", "B", "Z"];
+let finalArr = [];
+
+finalArr = (arrOne.concat(arrTwo)).sort().reverse();
+
+
+console.log(finalArr); // ["Z", "X", "D", "C", "B", "A"]
+
+console.log('\n************* [4]');
+
+let website = "Go";
+let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+
+console.log(words.slice(-1)[0][0].toUpperCase().slice(2)); // ZERO
+
+console.log('\n************* [5]');
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+
+// Write 3 Solutions
+if(haystack.includes(needle)){
+  console.log("Found");
+}
+
+
+if(haystack.indexOf(needle)){
+  console.log("Found");
+}
+
+if(haystack.lastIndexOf(needle)){
+  console.log("Found");
+}
+
+console.log('\n************* [6]');
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
+
+allArrs = arr1.concat(arr2);
+allArrs.sort();
+
+console.log(allArrs.join("").toLowerCase().slice(4)); // fxy
