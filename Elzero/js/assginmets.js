@@ -261,3 +261,92 @@ allArrs = arr1.concat(arr2);
 allArrs.sort();
 
 console.log(allArrs.join("").toLowerCase().slice(4)); // fxy
+
+
+console.log('\n\n\n\n************* assignment 48-35');
+console.log('*** [1] *** ');
+// let start = 10;
+// let end = 100;
+// let exclude = 40;
+
+// for(let i = start; i < end; i++ ){
+//   if(i == exclude){
+//     continue;
+//   }
+//   console.log(i);
+
+// }
+console.log("DONE");
+
+console.log('*** [2] *** ');
+// let start = 10;
+// let end = 0;
+// let stop = 3;
+
+// for(let i = start; i > end ;i--){
+//   if(i == start){
+//     console.log(i);
+//   } else{
+//     console.log(`0${i}`);
+//   }
+
+//   if(i==stop){
+//     break;
+//   }
+// }
+
+console.log("DONE");
+
+console.log('*** [3] *** ');
+// let start = 1;
+// let end = 6;
+// let breaker = 2;
+
+// for(let i = start; i <= end; i++){
+//   console.log(i);
+//   console.log(`-- ${breaker}`);
+//   console.log(`-- ${breaker * breaker}`);
+
+// }
+console.log("DONE");
+
+
+console.log('*** [4] *** ');
+// let index = 10;
+// let jump = 2;
+// let end = 0;
+
+// for (let i = index;i>end;i--) {
+//   // Write Your Code Here
+//   if(i % 2  == 0){
+//     if(i == 2 )
+//     {
+//       break;
+//     }
+//     console.log(i);
+
+
+//   }
+// }
+console.log("DONE");
+
+console.log('*** [5] *** ');
+// let friends_arr = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+// let letter = "a";
+
+// for(let i = 0 ;i < friends_arr.length ; i++){
+//   if(friends_arr[i].charAt(0) == letter || friends_arr[i].charAt(0) == letter.toUpperCase()){
+//     continue;
+//   }
+//     console.log(`${i} => ${friends_arr[i]}`);
+// }
+
+// // Output
+// "1 => Sayed"
+// "2 => Eman"
+// "3 => Mahmoud"
+// "4 => Osama"
+// "5 => Sameh"
+console.log("DONE");
+
+
