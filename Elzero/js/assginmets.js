@@ -579,3 +579,9 @@ console.log('*** [2] *** ');
 
 console.log('*** [3] *** ');
 console.log('*** [4] *** ');
+
+
+console.log('\n\n\n\n************* assignment 71-78');
+let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"];
+
+
