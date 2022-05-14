@@ -585,3 +585,78 @@ console.log('\n\n\n\n************* assignment 71-78');
 let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"];
 
 
+
+console.log('\n\n\n\n************* assignment 33-37');
+console.log('*** [1] *** ');
+
+let member = new Object();
+
+member = {
+  name : "elzero",
+  age : 38,
+  country : "Egypt",
+
+  fullDetails : () => {
+    return `my name is ${member.name} and my age ${member.age} from ${member.country}`
+  }
+
+}
+
+console.log(member.name); // Elzero
+console.log(member.age); // 38
+console.log(member.country); // Egypt
+console.log(member.fullDetails());
+
+console.log('*** [2] *** ');
+
+// Method One
+// Create Your Object Here
+
+objMethodOne = {};
+
+objMethodTwo = new Object();
+
+objMethodThree = Object.create({});
+
+objMethodFour = Object.assign({});
+
+console.log(objMethodOne.property); // "Method One"
+
+// Method Two
+// Create Your Object Here
+
+console.log(objMethodTwo.property); // "Method Two"
+
+// Method Three
+// Create Your Object Here
+
+console.log(objMethodThree.property); // "Method Three"
+
+// Method Four
+// Create Your Object Here
+
+console.log(objMethodFour.property); // "Method Four"
+
+console.log('*** [3] *** ');
+
+
+let a = 1;
+
+let threeNums = {
+  b: 2,
+  c: 3,
+  d: 4,
+};
+
+let twoNums = {
+  e: 5,
+  f: 6,
+};
+
+// Create Your Object Here in One Line
+
+finalObject = Object.assign({a},threeNums,twoNums);
+console.log(finalObject);
+
+console.log('*** [4] *** ');
+
